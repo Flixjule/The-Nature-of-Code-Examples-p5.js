@@ -13,7 +13,7 @@
 //      -- mutate DNA
 
 function newChar() {
-  var c = floor(random(63,122));
+  var c = floor(random(63,123));
   if (c === 63) c = 32;
   if (c === 64) c = 46;
 
